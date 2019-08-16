@@ -6,6 +6,7 @@ def line(deli_line)
     
     #shows their current place in line
     "The line is currently: #{queue}" 
+    #queue = 
     deli_line.each_with_index do |name, i|
       print "#{i+1}. #{name} "
     end 
