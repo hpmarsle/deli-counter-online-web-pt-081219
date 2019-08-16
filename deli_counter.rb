@@ -3,8 +3,6 @@ katz_deli =[]
 
 def line(deli_line)
   if deli_line.length >= 1 
-    #shows their current place in line
-    # "The line is currently:#{queue}" 
     queue = "The line is currently:" 
     deli_line.each_with_index do |name, i|
       queue << " #{i+1}. #{name}"
@@ -13,7 +11,6 @@ def line(deli_line)
   else
     puts "The line is currently empty."
   end
-  
 end
 
 # def take_a_number (deli_line, name)
