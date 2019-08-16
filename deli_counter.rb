@@ -3,7 +3,10 @@ katz_deli =[]
 
 def line(deli_line)
   #shows their current place in line
-  
+  "The line is currently: " 
+  deli_line.each_with_index do |name, i|
+    "#{i+1}. #{name}"
+  end 
   #if noone is in line
    puts "The line is currently empty"
 end
