@@ -20,7 +20,7 @@ end
 
 def now_serving(deli_line)
   if deli_line.length >= 1
-    currentdeli.line.shift# puts the next person in line and removes them from the 
+    currently deli.line.shift# puts the next person in line and removes them from the 
   #thinking shift
   else
     puts "There is nobody waiting to be served!"
