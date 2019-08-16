@@ -5,7 +5,7 @@ def line(deli_line)
   if deli_line.length >= 1 
     
     #shows their current place in line
-    "The line is currently: " 
+    "The line is currently: #{queue}" 
     deli_line.each_with_index do |name, i|
       print "#{i+1}. #{name} "
     end 
