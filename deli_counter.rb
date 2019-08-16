@@ -10,7 +10,7 @@ def line(deli_line)
       queue << "#{i+1}. #{name} "
     end 
   else
-    queue = "The line is currently empty"
+    puts "The line is currently empty"
   end
   queue
 end
