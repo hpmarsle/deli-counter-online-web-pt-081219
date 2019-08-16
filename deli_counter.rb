@@ -9,7 +9,6 @@ def line(deli_line)
     deli_line.each_with_index do |name, i|
       queue << " #{i+1}. #{name}"
     end 
-    qu
     puts queue
   else
     puts "The line is currently empty."
