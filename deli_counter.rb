@@ -18,9 +18,9 @@ def take_a_number (deli_line, name)
   puts "Welcome, #{name}. You are number #{deli_line.index(name)+ 1} in line."
 end 
 
-# def now_serving 
-#   # puts the next person in line and removes them from the 
-#   #thinking shift
-#   #if there's noone in line 
-#     puts "There is nobody waiting to be served!"
-# end 
+def now_serving 
+  # puts the next person in line and removes them from the 
+  #thinking shift
+  #if there's noone in line 
+    puts "There is nobody waiting to be served!"
+end 
