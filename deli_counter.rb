@@ -20,7 +20,7 @@ end
 
 def now_serving(deli_line)
   if deli_line.length >= 1
-    current_customer = deli.line.shift
+    current_customer = deli_line.shift
     puts "Currently serving #{current_customer}."
   else
     puts "There is nobody waiting to be served!"
