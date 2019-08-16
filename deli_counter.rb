@@ -15,7 +15,7 @@ end
 
 def take_a_number (deli_line, name)#=> Welcome, Grace. You are number 2 in line.
   deli_line.push(name)
-  deli_line.each_with_index
+  deli_line.index(name)+ 1
   "Welcome, #{name}. You are number #{i+1} in line."
   #puts person's name along with their position in line
   #remember people count from 1 
