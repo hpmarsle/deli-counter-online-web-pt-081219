@@ -12,7 +12,7 @@ def line(deli_line)
   else
     puts "The line is currently empty."
   end
-  queue
+  puts queue
 end
 
 # def take_a_number (deli_line, name)
