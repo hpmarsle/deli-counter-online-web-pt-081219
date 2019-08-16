@@ -13,7 +13,8 @@ def line(deli_line)
   end
 end
 
-def take_a_number (deli_line, name)
+def take_a_number (deli_line, name)#=> Welcome, Grace. You are number 2 in line.
+  "Welcome, #{name}. You are number #{i+1} in line."
   #puts person's name along with their position in line
   #remember people count from 1 
 end 
