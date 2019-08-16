@@ -3,7 +3,6 @@ katz_deli =[]
 
 def line(deli_line)
   if deli_line.length >= 1 
-    
     #shows their current place in line
     # "The line is currently: #{queue}" 
     queue = "The line is currently: " 
@@ -11,7 +10,7 @@ def line(deli_line)
       queue << "#{i+1}. #{name} "
     end 
   else
-    puts "The line is currently empty"
+    queue = "The line is currently empty"
   end
 end
 
