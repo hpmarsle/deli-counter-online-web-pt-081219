@@ -1,7 +1,7 @@
 # Write your code here.
 katz_deli =[]
 
-def line 
+def line(deli_line)
   #shows their current place in line
   
   #if noone is in line
