@@ -13,12 +13,12 @@ def line(deli_line)
   end
 end
 
-def take_a_number (deli_line, name)
+def take_a_number(deli_line, name)
   deli_line.push(name)
   puts "Welcome, #{name}. You are number #{deli_line.index(name)+ 1} in line."
 end 
 
-def now_serving 
+def now_serving
   # puts the next person in line and removes them from the 
   #thinking shift
   #if there's noone in line 
